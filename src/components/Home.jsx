@@ -11,7 +11,7 @@ import {
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <h1>MicroBit</h1>
         <p>Exceeding Your Expectations</p>
       </div>

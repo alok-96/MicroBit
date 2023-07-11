@@ -1,0 +1,52 @@
+@import './colors.scss';
+
+.contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    .form {
+        width: 70%;
+        background-color: $brown;
+        border-radius: 0 150px 150px 0;
+        padding: 3rem 5rem;
+        color: $light;
+        font-size: 1.2rem;
+
+        h2 {
+            margin-left: 2rem;
+        }
+
+        div {
+            margin: 2rem;
+
+            input {
+                padding: 10px;
+                border-radius: 5px;
+                border: 0;
+                outline: none;
+                font-size: 1rem;
+                width: 50%;
+                margin-top: 5px;
+            }
+
+            button {
+                color: $light;
+                background-color: rgb(66, 128, 190);
+                border: 0;
+                border-radius: 5px;
+                outline: none;
+                padding: 10px 15px;
+                font-size: 1rem;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(61, 112, 164);
+                }
+            }
+        }
+    }
+}
