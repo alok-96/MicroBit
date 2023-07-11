@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 import "./styles/App.scss";
+import "./styles/media-queries.scss";
 
 function App() {
   return (

@@ -107,9 +107,11 @@
     
         > section{
             display: flex;
-            padding: 50px;
+            padding-block: 50px;
             justify-content: space-between;
+            flex-wrap: wrap;
             align-items: center;
+            gap: 10px;
 
             > div {
                 display: flex;

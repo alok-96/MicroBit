@@ -1,0 +1,125 @@
+@import './colors.scss';
+
+@media screen and (max-width: 799px) {
+    .desc {
+        .desc-text {
+            padding-right: 20px;
+            font-size: 1.2rem;
+        }
+    }
+    #about {
+        div {
+            padding-inline: 20px;   
+            h1 {
+                text-align: start;
+                padding-left: 50px;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .contact > .form {
+        padding-inline: 0;
+    }
+
+    .footer {
+        position: sticky;
+        bottom: 0;
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    #brands{
+        div {
+            section {
+                flex-direction: column;
+            }
+}
+    }
+
+    .Footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 10px;
+
+        .logo {
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        flex-direction: column;
+        padding: 5px;
+        justify-content: center;
+        
+        main {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+    .desc {
+        flex-direction: column;
+        gap: 50px;
+
+        .desc-text {
+            margin-inline: 10px;
+            padding-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #about {
+        div {
+            text-align: center;
+            width: 100%;
+            border-radius: 0;
+            margin-bottom: 5px;
+            h1 {
+                text-align: center;
+                padding: 0;
+            }
+        }
+    }
+
+    #brands {
+        padding-bottom: 5px;
+        div {
+            width: 100%;
+            border-radius: 0;
+            h1 {
+                text-align: center;
+            }
+            section {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+
+    .contact{
+        background-color: $brown;
+        margin-bottom: 5px;
+        .form {
+            width: 100%;
+            border-radius: 0;
+        }
+    }
+
+    .home {
+        h1 {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+    }
+}
