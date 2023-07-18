@@ -9,7 +9,7 @@
     }
     #about {
         div {
-            padding-inline: 20px;   
+            padding-inline: 20px;      
             h1 {
                 text-align: start;
                 padding-left: 50px;
@@ -74,6 +74,18 @@
             padding-right: 0;
         }
     }
+
+    #about {
+        div {
+            h1 {
+                padding-bottom: 0;
+            }
+
+            p {
+                padding-inline: 0px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -109,7 +121,7 @@
         background-color: $brown;
         margin-bottom: 5px;
         .form {
-            width: 100%;
+            width: 120%;
             border-radius: 0;
         }
     }
