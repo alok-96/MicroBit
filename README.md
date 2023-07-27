@@ -1,5 +1,5 @@
 ## MicroBit
-A Web Application to provide Tech related services to the students, like - Web Designing, App and Game Development etc. This project is built with React and SCSS.
+Frontend UI for a Web Application, which provides services related to techology to the students, like - Web Designing, App and Game Development etc. This project is built with React and SCSS.
 
 ## Project Screen Shot(s)
 ![image](https://github.com/alok-96/MicroBit/assets/90456532/3743e072-7147-4396-afe4-4158d0e5bae8)
